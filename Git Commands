@@ -1,0 +1,14 @@
+# clone a project from Remote repo
+# cd to your project folder
+$ git clone <remote-url>
+# git clone automatically creates remote name called origin mapped to cloned remote url, check via 'git remote -v'
+$ git remote -v
+
+# edit, stage, commit and push
+$ git add <file>
+$ git rm <file>
+$ git mv <old file name> <new file>
+
+$ git commit -m 'message'
+$ git push <remote-name> <local-branch-name>
+
