@@ -1,0 +1,43 @@
+# when working in local
+$git status  # shows the status of the files
+
+
+# add file to stage
+$ git add <filename> 
+
+# use wildcard
+$git add *.py
+
+# COMMIT - git uses 2 stages to commit file
+# staging area allows you to group related file changes to commit together later
+$git add <filename>
+$git commit -m <'message'>
+
+# View Commit Data
+# commit is identified by 40-hexdigit SHA-1 hash
+$git log
+$git log stat
+
+# list all patches
+$git log -p
+
+#diff
+#diff --git f1/Readme.md m1/Readme.md
+
+# set up remote repo, add a remote repo called "origin" 
+$ git remote add <remote name> <remote url>
+
+# list all remote names and URLS
+$ git remote -v
+
+# push commits from local repo to remote repo
+# main branch of local is master
+$ git push origin master
+
+# after modification/new file
+$ git add <filename>
+$ git commit - m 'message'
+$ git push origin master
+
+
+
